@@ -1,5 +1,6 @@
 $(document).ready(function () {
 
+    // Blog Index
     $.ajax({
         url: 'http://localhost/TEP/TEP-CMS/wp-json/wp/v2/posts',
         type: 'GET',

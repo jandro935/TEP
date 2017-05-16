@@ -469,14 +469,15 @@
 <!--banner start-->
 <section class="ImageBackground ImageBackground--overlay  u-height600" data-overlay="2">
     <div class="ImageBackground__holder">
-        <img src="assets/imgs/blog-b-1.jpg" alt="..."/>
+        <img src="/assets/imgs/blog-b-1.jpg" alt="..." />
     </div>
     <div class="container u-vCenter">
         <div class="row">
             <div class="col-md-6">
-                <h1 class="u-MarginTop0 text-white"><span class="default-color u-FontSize60 u-xs-FontSize30 u-Weight100">Speak</span> in such a way that other love to <span class="default-color u-FontSize60 u-xs-FontSize30 u-Weight100">Listen</span> to your...</h1>
+                <h1 class="u-MarginTop0 text-white"><span class="default-color u-FontSize60 u-xs-FontSize30 u-Weight100">Speak
+                    </span> in such a way that other love to <span class="default-color u-FontSize60 u-xs-FontSize30 u-Weight100">Listen</span> to your...</h1>
                 <div class=" text-right u-PaddingRight40 u-xs-PaddingRight0">
-                    <img src="assets/imgs/b-signature.png" alt=""/>
+                    <img src="/assets/imgs/b-signature.png" alt="" />
                 </div>
             </div>
 
@@ -485,233 +486,12 @@
 </section>
 <!--banner end-->
 
-<!-- start-->
 <div class="container u-MarginTop100 u-xs-MarginTop30">
     <div class="row">
         <div class="col-md-12">
             <div class="js-Portfolio portfolio-grid grid-3 gutter">
-
-                {{-- Loop Start --}}
-                {{--<div class="portfolio-item">--}}
-                    {{--<div class="u-BoxShadow100">--}}
-                        {{--<div class="Blurb">--}}
-                            {{--<a href="#"><img class="img-responsive" src="assets/imgs/b1.jpg" alt="..."></a>--}}
-                            {{--<div class="u-Padding30 text-center">--}}
-                                {{--<h4 class="text-uppercase u-MarginTop10 u-MarginBottom10 u-Weight700 u-LineHeight1-5"><a class="Blurb__hoverText link-normal" href="#">Awesome standard masonry blog post</a></h4>--}}
-                                {{--<p class="small u-MarginBottom25"><a class="btn-go" href="#">MARTIN SMITH</a> | <a class="btn-go" href="#">9 DEC 2015</a></p>--}}
-                                {{--<p class="u-LineHeight2">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.</p>--}}
-                                {{--<p class="u-MarginTop35 u-MarginBottom0">--}}
-                                    {{--<a class="btn-go text-uppercase small text-muted" href="#" role="button">Read more <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>--}}
-                                {{--</p>--}}
-                            {{--</div>--}}
-                        {{--</div>--}}
-                    {{--</div>--}}
-                {{--</div>--}}
-                {{--<div class="portfolio-item">--}}
-                    {{--<div class="u-BoxShadow100">--}}
-                        {{--<div class="Blurb">--}}
-                            {{--<a href="#"><img class="img-responsive" src="assets/imgs/like.jpg" alt="..."></a>--}}
-                            {{--<div class="u-Padding30 text-center">--}}
-                                {{--<h4 class="text-uppercase u-MarginTop10 u-MarginBottom10 u-Weight700 u-LineHeight1-5"><a class="Blurb__hoverText link-normal" href="#">Ultra modern design</a></h4>--}}
-                                {{--<p class="small u-MarginBottom25"><a class="btn-go" href="#">MARTIN SMITH</a> | <a class="btn-go" href="#">9 DEC 2015</a></p>--}}
-                                {{--<p class="u-LineHeight2">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus. impedit quo minus id quod maxime placeat.</p>--}}
-                                {{--<p class="u-MarginTop35 u-MarginBottom0">--}}
-                                    {{--<a class="btn-go text-uppercase small text-muted" href="#" role="button">Read more <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>--}}
-                                {{--</p>--}}
-                            {{--</div>--}}
-                        {{--</div>--}}
-                    {{--</div>--}}
-                {{--</div>--}}
-                {{--<div class="portfolio-item">--}}
-                    {{--<div class="u-BoxShadow100">--}}
-                        {{--<div class="Blurb">--}}
-                            {{--<a href="#"><img class="img-responsive" src="assets/imgs/s-1.jpg" alt="..."></a>--}}
-                            {{--<div class="u-Padding30 text-center">--}}
-                                {{--<h4 class="text-uppercase u-MarginTop10 u-MarginBottom10 u-Weight700 u-LineHeight1-5"><a class="Blurb__hoverText link-normal" href="#">Basic blog post with image</a></h4>--}}
-                                {{--<p class="small u-MarginBottom25"><a class="btn-go" href="#">MARTIN SMITH</a> | <a class="btn-go" href="#">9 DEC 2015</a></p>--}}
-                                {{--<p class="u-LineHeight2">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.</p>--}}
-                                {{--<p class="u-MarginTop35 u-MarginBottom0">--}}
-                                    {{--<a class="btn-go text-uppercase small text-muted" href="#" role="button">Read more <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>--}}
-                                {{--</p>--}}
-                            {{--</div>--}}
-                        {{--</div>--}}
-                    {{--</div>--}}
-                {{--</div>--}}
-                {{--<div class="portfolio-item">--}}
-                    {{--<div class="u-BoxShadow100">--}}
-                        {{--<div class="Blurb">--}}
-
-                            {{--<div class="js-OwlCarousel owl-carousel owl-theme OwlNav OwlNav--triangle OwlNav--triangle--white OwlNav--edge OwlNav--inside OwlNav--triangle--lg">--}}
-                                {{--<div class="item">--}}
-                                    {{--<img class="img-responsive" src="assets/imgs/b-img-3.jpg" alt="...">--}}
-                                {{--</div>--}}
-                                {{--<div class="item">--}}
-                                    {{--<img class="img-responsive" src="assets/imgs/b-img-2.jpg" alt="...">--}}
-                                {{--</div>--}}
-                                {{--<div class="item">--}}
-                                    {{--<img class="img-responsive" src="assets/imgs/b-img-1.jpg" alt="...">--}}
-                                {{--</div>--}}
-                            {{--</div>--}}
-
-                            {{--<div class="u-Padding30 text-center">--}}
-                                {{--<h4 class="text-uppercase u-MarginTop10 u-MarginBottom10 u-Weight700 u-LineHeight1-5"><a class="Blurb__hoverText link-normal" href="#">Ultra modern design</a></h4>--}}
-                                {{--<p class="small u-MarginBottom25"><a class="btn-go" href="#">MARTIN SMITH</a> | <a class="btn-go" href="#">9 DEC 2015</a></p>--}}
-                                {{--<p class="u-LineHeight2">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.</p>--}}
-                                {{--<p class="u-MarginTop35 u-MarginBottom0">--}}
-                                    {{--<a class="btn-go text-uppercase small text-muted" href="#" role="button">Read more <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>--}}
-                                {{--</p>--}}
-                            {{--</div>--}}
-                        {{--</div>--}}
-                    {{--</div>--}}
-                {{--</div>--}}
-                {{--<div class="portfolio-item">--}}
-                    {{--<div class="u-BoxShadow100">--}}
-                        {{--<div class="Blurb">--}}
-                            {{--<a href="#"><img class="img-responsive" src="assets/imgs/signin-halfi-image.jpg" alt="..."></a>--}}
-                            {{--<div class="u-Padding30 text-center">--}}
-                                {{--<h4 class="text-uppercase u-MarginTop10 u-MarginBottom10 u-Weight700 u-LineHeight1-5"><a class="Blurb__hoverText link-normal" href="#">Ultra modern design</a></h4>--}}
-                                {{--<p class="small u-MarginBottom25"><a class="btn-go" href="#">MARTIN SMITH</a> | <a class="btn-go" href="#">9 DEC 2015</a></p>--}}
-                                {{--<p class="u-LineHeight2">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.</p>--}}
-                                {{--<p class="u-MarginTop35 u-MarginBottom0">--}}
-                                    {{--<a class="btn-go text-uppercase small text-muted" href="#" role="button">Read more <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>--}}
-                                {{--</p>--}}
-                            {{--</div>--}}
-                        {{--</div>--}}
-                    {{--</div>--}}
-                {{--</div>--}}
-                {{--<div class="portfolio-item">--}}
-                    {{--<div class="u-BoxShadow100">--}}
-                        {{--<div class="Blurb">--}}
-                            {{--<div class="u-BoxShadow100 u-BorderRadius4">--}}
-                                {{--<div class="Blurb Blurb--wrapper30 bg-primary bg-primary--gradient310 ImageBackground ImageBackground--overlay ImageBackground--overlay--gradient" data-overlay="9">--}}
-                                    {{--<div class="container">--}}
-                                        {{--<div class="row text-center">--}}
-                                            {{--<blockqoute>--}}
-                                                {{--<p class="h2 u-Weight100 u-LineHeight1-5 u-MarginBottom30">If friendship is your weakest point then you are the strongest person</p>--}}
-                                                {{--<p><em>- Abraham Lincoln</em></p>--}}
-                                            {{--</blockqoute>--}}
-                                        {{--</div>--}}
-                                    {{--</div>--}}
-                                {{--</div>--}}
-                            {{--</div>--}}
-                        {{--</div>--}}
-                    {{--</div>--}}
-                {{--</div>--}}
-                {{--<div class="portfolio-item">--}}
-                    {{--<div class="u-BoxShadow100">--}}
-                        {{--<div class="Blurb">--}}
-                            {{--<a href="#"><img class="img-responsive" src="assets/imgs/parallax1.jpg" alt="..."></a>--}}
-                            {{--<div class="u-Padding30 text-center">--}}
-                                {{--<h4 class="text-uppercase u-MarginTop10 u-MarginBottom10 u-Weight700 u-LineHeight1-5"><a class="Blurb__hoverText link-normal" href="#">Ultra modern design</a></h4>--}}
-                                {{--<p class="small u-MarginBottom25"><a class="btn-go" href="#">MARTIN SMITH</a> | <a class="btn-go" href="#">9 DEC 2015</a></p>--}}
-                                {{--<p class="u-LineHeight2">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.</p>--}}
-                                {{--<p class="u-MarginTop35 u-MarginBottom0">--}}
-                                    {{--<a class="btn-go text-uppercase small text-muted" href="#" role="button">Read more <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>--}}
-                                {{--</p>--}}
-                            {{--</div>--}}
-                        {{--</div>--}}
-                    {{--</div>--}}
-                {{--</div>--}}
-                {{--<div class="portfolio-item">--}}
-                    {{--<div class="u-BoxShadow100">--}}
-                        {{--<div class="Blurb">--}}
-                            {{--<div class="b-thumb position-relative">--}}
-                                {{--<img class="" src="assets/imgs/b-img-2.jpg" alt="...">--}}
-                                {{--<a href="http://www.youtube.com/watch?v=0O2aH4XLbto" class="popup-youtube btn btn-play btn-play--hoverPrimary u-Rounded u-Center" type="submit"><i class="btn__iconCenter fa fa-play"></i></a>--}}
-                            {{--</div>--}}
-                            {{--<div class="u-Padding30 text-center">--}}
-                                {{--<h4 class="text-uppercase u-MarginTop10 u-MarginBottom10 u-Weight700 u-LineHeight1-5"><a class="Blurb__hoverText link-normal" href="#">Awesome standing masnonry blog post</a></h4>--}}
-                                {{--<p class="small u-MarginBottom25"><a class="btn-go" href="#">MARTIN SMITH</a> | <a class="btn-go" href="#">9 DEC 2015</a></p>--}}
-                                {{--<p class="u-LineHeight2">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.</p>--}}
-                                {{--<p class="u-MarginTop35 u-MarginBottom0">--}}
-                                    {{--<a class="btn-go text-uppercase small text-muted" href="#" role="button">Read more <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>--}}
-                                {{--</p>--}}
-                            {{--</div>--}}
-                        {{--</div>--}}
-                    {{--</div>--}}
-                {{--</div>--}}
-                {{--<div class="portfolio-item">--}}
-                    {{--<div class="u-BoxShadow100">--}}
-                        {{--<div class="Blurb">--}}
-                            {{--<a href="#"><img class="img-responsive" src="assets/imgs/b1.jpg" alt="..."></a>--}}
-                            {{--<div class="u-Padding30 text-center">--}}
-                                {{--<h4 class="text-uppercase u-MarginTop10 u-MarginBottom10 u-Weight700 u-LineHeight1-5"><a class="Blurb__hoverText link-normal" href="#">Ultra modern design</a></h4>--}}
-                                {{--<p class="small u-MarginBottom25"><a class="btn-go" href="#">MARTIN SMITH</a> | <a class="btn-go" href="#">9 DEC 2015</a></p>--}}
-                                {{--<p class="u-LineHeight2">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.</p>--}}
-                                {{--<p class="u-MarginTop35 u-MarginBottom0">--}}
-                                    {{--<a class="btn-go text-uppercase small text-muted" href="#" role="button">Read more <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>--}}
-                                {{--</p>--}}
-                            {{--</div>--}}
-                        {{--</div>--}}
-                    {{--</div>--}}
-                {{--</div>--}}
-                {{--<div class="portfolio-item">--}}
-                    {{--<div class="u-BoxShadow100">--}}
-                        {{--<div class="Blurb">--}}
-                            {{--<a href="#"><img class="img-responsive" src="assets/imgs/b1.jpg" alt="..."></a>--}}
-                            {{--<div class="u-Padding30 text-center">--}}
-                                {{--<h4 class="text-uppercase u-MarginTop10 u-MarginBottom10 u-Weight700 u-LineHeight1-5"><a class="Blurb__hoverText link-normal" href="#">Awesome standard masonry blog post</a></h4>--}}
-                                {{--<p class="small u-MarginBottom25"><a class="btn-go" href="#">MARTIN SMITH</a> | <a class="btn-go" href="#">9 DEC 2015</a></p>--}}
-                                {{--<p class="u-LineHeight2">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.</p>--}}
-                                {{--<p class="u-MarginTop35 u-MarginBottom0">--}}
-                                    {{--<a class="btn-go text-uppercase small text-muted" href="#" role="button">Read more <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>--}}
-                                {{--</p>--}}
-                            {{--</div>--}}
-                        {{--</div>--}}
-                    {{--</div>--}}
-                {{--</div>--}}
-                {{--<div class="portfolio-item">--}}
-                    {{--<div class="u-BoxShadow100">--}}
-                        {{--<div class="Blurb">--}}
-                            {{--<a href="#"><img class="img-responsive" src="assets/imgs/signin-halfi-image.jpg" alt="..."></a>--}}
-                            {{--<div class="u-Padding30 text-center">--}}
-                                {{--<h4 class="text-uppercase u-MarginTop10 u-MarginBottom10 u-Weight700 u-LineHeight1-5"><a class="Blurb__hoverText link-normal" href="#">Ultra modern design</a></h4>--}}
-                                {{--<p class="small u-MarginBottom25"><a class="btn-go" href="#">MARTIN SMITH</a> | <a class="btn-go" href="#">9 DEC 2015</a></p>--}}
-                                {{--<p class="u-LineHeight2">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus. impedit quo minus id quod maxime placeat.</p>--}}
-                                {{--<p class="u-MarginTop35 u-MarginBottom0">--}}
-                                    {{--<a class="btn-go text-uppercase small text-muted" href="#" role="button">Read more <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>--}}
-                                {{--</p>--}}
-                            {{--</div>--}}
-                        {{--</div>--}}
-                    {{--</div>--}}
-                {{--</div>--}}
-                {{--<div class="portfolio-item">--}}
-                    {{--<div class="u-BoxShadow100">--}}
-                        {{--<div class="Blurb">--}}
-                            {{--<a href="#"><img class="img-responsive" src="assets/imgs/s-1.jpg" alt="..."></a>--}}
-                            {{--<div class="u-Padding30 text-center">--}}
-                                {{--<h4 class="text-uppercase u-MarginTop10 u-MarginBottom10 u-Weight700 u-LineHeight1-5"><a class="Blurb__hoverText link-normal" href="#">Basic blog post with image</a></h4>--}}
-                                {{--<p class="small u-MarginBottom25"><a class="btn-go" href="#">MARTIN SMITH</a> | <a class="btn-go" href="#">9 DEC 2015</a></p>--}}
-                                {{--<p class="u-LineHeight2">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.</p>--}}
-                                {{--<p class="u-MarginTop35 u-MarginBottom0">--}}
-                                    {{--<a class="btn-go text-uppercase small text-muted" href="#" role="button">Read more <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>--}}
-                                {{--</p>--}}
-                            {{--</div>--}}
-                        {{--</div>--}}
-                    {{--</div>--}}
-                {{--</div>--}}
-                {{--<div class="portfolio-item">--}}
-                    {{--<div class="u-BoxShadow100">--}}
-                        {{--<div class="Blurb">--}}
-                            {{--<div class="b-thumb u-MarginBottom80">--}}
-                                {{--<p class="audio-fit">--}}
-                                    {{--<iframe src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/115637399&amp;color=ff5500&amp;auto_play=false&amp;show_artwork=true"></iframe>--}}
-                                {{--</p>--}}
-                            {{--</div>--}}
-                            {{--<div class="u-Padding30 text-center">--}}
-                                {{--<h4 class="text-uppercase u-MarginTop10 u-MarginBottom10 u-Weight700 u-LineHeight1-5"><a class="Blurb__hoverText link-normal" href="#">Clear Audio Post</a></h4>--}}
-                                {{--<p class="small u-MarginBottom25"><a class="btn-go" href="#">MARTIN SMITH</a> | <a class="btn-go" href="#">9 DEC 2015</a></p>--}}
-                                {{--<p class="u-MarginTop35 u-MarginBottom0">--}}
-                                    {{--<a class="btn-go text-uppercase small text-muted" href="#" role="button">Read more <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>--}}
-                                {{--</p>--}}
-                            {{--</div>--}}
-                        {{--</div>--}}
-                    {{--</div>--}}
-                {{--</div>--}}
+                {{-- Main Index Blog Content --}}
             </div>
-
-             {{--Loop End --}}
-
             <!--pagination start-->
             {{--<div class=" u-MarginTop150 u-xs-MarginBottom50 u-FlexCenter">--}}
                 {{--<a href="#" class="btn btn-sm btn-creative btn-creative--prev text-uppercase"><span class="arrow arrow-left"></span>Previous</a>--}}
@@ -722,32 +502,8 @@
         </div>
     </div>
 </div>
-<!-- end-->
 
-
-<!--footer start-->
-<footer class="bg-darker u-PaddingTop45 u-PaddingBottom45 u-MarginTop100 u-xs-MarginTop30">
-    <div class="container">
-        <div class="row text-sm u-MarginTop20">
-            <div class="col-md-6 col-md-push-6 text-right text-left--xs text-left--sm">
-                <ul class="list-inline text-paragraph u-LineHeight2 u-MarginBottom0">
-                    <li><a class="" href="#">Privacy</a></li>
-                    <li>-</li>
-                    <li><a href="#">Terms</a></li>
-                    <li>-</li>
-                    <li><a href="#">Help Center</a></li>
-                    <li>-</li>
-                    <li><a href="#">Download</a></li>
-                </ul>
-            </div>
-            <div class="col-md-6 col-md-pull-6">
-                <p class="u-LineHeight2 u-MarginBottom20">Copyright © 2009–2017 Alien Template. All rights reserved.</p>
-            </div>
-        </div>
-    </div>
-</footer>
-<!--footer end-->
-
+@include ('partials/footer')
 
 <!-- inject:js -->
 <script src="/assets/vendor/jquery/jquery-1.12.0.min.js"></script>
